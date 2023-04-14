@@ -1,6 +1,3 @@
-import pandas as pd
-import streamlit as st
-
 st.title("商品数量汇总")
 
 uploaded_file = st.file_uploader("选择要上传的 Excel 文档", type=["xlsx"])
